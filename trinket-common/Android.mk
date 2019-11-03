@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter RMX1911,$(TARGET_DEVICE)),)
+ifneq ($(filter RMX1927,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
